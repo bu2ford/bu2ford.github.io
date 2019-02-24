@@ -1,0 +1,55 @@
+@font-face {
+    font-family: africaFont;
+    src: url(zilapAfricaDemo.ttf);
+    color: white;
+    }
+header {
+    font-family: africaFont;
+    font-size: 50px;
+    text-align: center;
+    padding: 10px;
+    background-image: url(sunset.jpg);
+    background-size: 100% 275px;
+    
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(54, 50, 50);
+}
+  
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+.column {
+    float: left;
+    width: 30%;
+    padding: 5px;
+    
+  }
+  
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+  
+  
+p {
+    color: rgb(134, 46, 14);
+    
+}
+img {
+    height: 200px;
+}
